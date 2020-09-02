@@ -1,0 +1,33 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+.container{
+    width:90%;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.blackjack{
+    width:80%;
+    background: url('blackjack.webp')center;
+    background-size: 100%;
+    border:10px solid #707070;
+    border-radius:10px;
+    padding:10px;
+}
+.blackjack .row{
+    height: 420px;
+    color:white;
+}
+.blackjack .row img{
+    width:100px;
+    margin:5px;
+    box-shadow: 2px 2px 25px 0.1px black;
+}
+table td {
+    text-align:center;
+}

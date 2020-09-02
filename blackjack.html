@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="mycss.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container center">
+        <h3>BlackJack</h3>
+        <h4 id = 'result'>Let's Play</h4>
+        <div class="flex-container">
+            <div class="blackjack">
+                <div class="row">
+                    <div class="col s6" id="your-box">
+                        <h4>You <span id="your-blackjack-score">0</span></h4>
+                    </div>
+                    <div class="col s6" id="dealer-box">
+                        <h4>Dealer <span id="dealer-blackjack-score">0</span></h4>
+                    </div>
+                </div>
+                <div class=>
+                    <button class="btn blue" id="hit-blackjack-button">Hit</button>
+                    <button class="btn orange" id="stand-blackjack-button">stand</button>
+                    <button class="btn red" id="deal-blackjack-button">deal</button>
+                </div>
+            </div>
+            <div class="scoreboard">
+                <table>
+                    <tr>
+                        <th>Wins</th>
+                        <th>Loses</th>
+                        <th>Draws</th>
+                    </tr>
+                    <tr>
+                        <td id="wins">0</td>
+                        <td id="loses">0</td>
+                        <td id="draws">0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="myjs.js"></script>
+</body>
+</html>
